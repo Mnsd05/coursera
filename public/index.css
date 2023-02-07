@@ -1,0 +1,101 @@
+html, body {
+    margin: 0 100px;
+    padding: 0;
+}
+header {
+    height: 200px;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header--img{
+    height: 200px;
+    margin-right: 10px;
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+}
+h4 {
+    margin: 20px
+}
+main {
+    margin-top: 20px;
+}
+#discount {
+    background-color: grey;
+    border-radius: 10px;
+}
+#discount--img {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#discount--number {
+    text-align: center;
+    color: white
+}
+.reserve--button{
+    height: 60px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#card--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.card {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid ;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.h1--header{
+    text-align: center;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+.submit--button{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
